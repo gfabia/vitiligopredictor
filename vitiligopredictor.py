@@ -91,7 +91,7 @@ def main(args):
         print("Usage: {} data".format(args[0]))
 
         print("\nWhere 'data' must be in JSON format. For example:",
-        "'[{\"id\": \"R89\", \"age\": 19, \"sex\": \"M\", \"history\": \"No\", \"skin_type\": \"IV\"}]'",        
+        "'[{\"id\": \"R89\", \"age\": 19, \"sex\": \"M\", \"history\": \"No\", \"skin_type\": \"IV\", \"reading\": 75}]'",        
         "\nRequired parameters are:",
         "  * 'id' (string)", 
         "  * 'age' (integer)",

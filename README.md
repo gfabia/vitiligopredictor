@@ -17,6 +17,8 @@ Predicts possible Vitiligo cases using the following features:
 
 `*` Used for prediction
 
+<img src="confusion-matrix-adaboost.png" alt="Confusion Matrix (AdaBoost model)" width="450">
+
 # Install Instructions
 
 1. Install `Pipenv` if not  installed yet
@@ -43,7 +45,7 @@ Required parameters are: `id` (string), `age` (integer), `sex` (string),  `histo
 
 Example:
 ```
-[{"id": "R89", "age": 19, "sex": "M", "history": "No", "skin_type": "IV"}]
+[{"id": "R89", "age": 19, "sex": "M", "history": "No", "skin_type": "IV", "reading": 75}]
 ```
 
 Multiple records are allowed. 
