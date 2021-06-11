@@ -86,3 +86,4 @@ $ ./vitiligopredictor '[{"id": "R89", "age": 19, "sex": "M", "history": "No", "s
 $ ./vitiligopredictor '[{"id": "R89", "age": 19, "sex": "M", "history": "Of course", "skin_type": "VI", "reading": 75}]'
 {"success": false, "error": "In 'R89', got an invalid datum 'Of course'."}
 ```
+
